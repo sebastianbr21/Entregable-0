@@ -32,11 +32,8 @@ form.contacto{
 
 .encabezado{
     background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.2)),
-    url("./assets/portada2.jpg");*/
     background-size: cover;
     min-height: 1px;
-    height: 100vh;
     color: white;
     margin-bottom: 2rem;
 }
