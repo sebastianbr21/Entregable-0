@@ -46,10 +46,7 @@ form.contacto{
 }
 
 .nav{
-   /* --state-cerrar: scale(0);
-    --state-abrir: scale(1);
-    --state-menu: translate(-100%);*/
-
+   
     padding: 40px 0;
     display: grid;
     justify-content: space-between;
@@ -57,36 +54,10 @@ form.contacto{
     grid-template-columns: repeat(2, max-content);
 }
 
-/*.nav:target{
-    --state-menu: translate(0);
-    --state-cerrar: scale(1);
-    --state-abrir: scale(0);
-}
-*/
 .nav-titulo {
     font-size: 2.5rem;
     z-index: 1;
 }
-
-/*.nav-abrir,
-.nav-cerrar{
-    cursor: pointer;
-    grid-column: -2/-1;
-    grid-row: 1/2;
-    transition: .5s transform;
-}
-
-.nav-abrir{
-    transform: var(--state-abrir);
-}
-
-.nav-cerrar{
-    transform: var(--state-cerrar);
-}
-
-.nav-icon{
-    width: 40px;
-}*/
 
 .nav-links{
     background-color: black;
@@ -118,14 +89,6 @@ form.contacto{
 }
 
 @media (min-width: 768px) {
-    /*.nav{
-        --state-abrir: scale(0);
-        --state-menu: translate(0);
-    }
-    
-    .nav:target{
-        --state-cerrar: scale(0);
-    }*/
 
     .nav-links{
         padding: 0;
